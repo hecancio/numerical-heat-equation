@@ -115,7 +115,3 @@ NumPy arrays are passed to the C kernel as raw `double*` pointers via
 `ctypes.data_as()`, meaning the C code operates directly on the same memory 
 buffer allocated by NumPy. No data duplication occurs at the language boundary, 
 which is critical for performance in large-scale simulations.
-
-## License
-
-This project is open source and available under the MIT License.
